@@ -1,0 +1,235 @@
+/* Body Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+/* Main Menu Styles */
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.main-menu ul li a:hover {
+    color: #555555;
+}
+
+header img {
+    max-width: 200px;
+}
+
+/* Search and Apply Styles */
+.search-apply {
+    display: flex;
+    align-items: center;
+}
+
+.search-apply input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.search-apply button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #0a0264;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-apply button:hover {
+    background-color: #fbcbed;
+}
+
+/* Main Content Styles */
+.container2 {
+    margin-top: 5px;
+    display: flex;
+}
+/* Leftsidebar menu */
+.Leftsidebar {
+    width: 20%;
+    background-color: #343a40; /* Dark background color */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Leftsidebar h2 {
+    color: #fbfbfb !important; /* White text color */
+    margin-bottom: 20px;
+    font-weight: 900 !important;
+}
+
+.Leftsidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Leftsidebar ul li {
+    margin-bottom: 10px;
+}
+
+.Leftsidebar ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.Leftsidebar ul li a:hover {
+    background-color: #495057; /* Darker background color on hover */
+}
+
+.Rightsidebar {
+    width: 20%;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.notice {
+    margin-top: 20px;
+}
+
+.notice .alert {
+    margin-bottom: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+    width: 60%;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;  
+}
+
+.main-content .owl-carousel .item img {
+    width: 100%; /* Adjust width as needed */
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 5px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background image is behind other content */
+}
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details{
+    background-image: url(./img/diu.jpg);
+    height: 100vh;
+    padding: 15px;
+}
+
+.details div{
+    background-color: #f2f2f2;
+    opacity: .75;
+    padding: 0px 20px;
+}
+
+.details div h1 {
+    padding: 5px 20px;
+}
+
+.main-content h1, p.main-content {
+    margin-top: 100px;
+    color: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Leftsidebar h2, .Rightsidebar h2 {
+    color: #333333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-icons {
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .main-content h1, p.main-content {
+        margin-top: 100px; /* Adjusted for smaller screens */
+    }
+
+    .search-apply input[type="text"] {
+        width: 150px; /* Adjusted for smaller screens */
+    }
+
+    .search-apply button {
+        padding: 8px 15px; /* Adjusted for smaller screens */
+    }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daffodil International University</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo-name">
+                <img src="img/daffodil.png" alt="Daffodil International University">
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Admission</a></li>
+                        <li><a href="#">Academics</a></li>
+                        <li><a href="#">Campus</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">International</a></li>
+                    </ul>
+                </nav>
+                <div class="search-apply">
+                    <input type="text" placeholder="Search">
+                    <button>Apply Online</button>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container2">
+        <!-- Side bar -->
+        <div class="Leftsidebar">
+            <h2>Menus</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Programs</a></li>
+                <li><a href="#">Notices</a></li>
+            </ul>
+        </div>
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="img/slider1.jpeg" alt="Slider Image 1"></div>
+                <div class="item"><img src="img/slider2.jpg" alt="Slider Image 2"></div>
+                <div class="item"><img src="img/slider3.jpg" alt="Slider Image 3"></div>
+            </div>
+            <!-- Image as Background -->
+            <div class="details">
+                <div>
+                    <h1>The most anticipated ceremony of the graduate.</h1>
+                <p>10th convocation of daffodil international university held on 9th February 2024.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        <!-- Right sideBar -->
+        <div class="Rightsidebar">
+            <div class="bio">
+                <h2>Biographies</h2>
+                <div>
+                    <img src="img/new-chancelor23.jpg" alt="Chancellor">
+                    <h2>Mohammed Shahabuddin</h2>
+                    <p>Hon’ble President of the People’s Republic of Bangladesh and
+                        Hon’ble Chancellor, Daffodil International University</p>
+                </div>
+                <div>
+                    <img src="img/CM-sir.jpg" alt="Chairman">
+                    <h2>Dr. Md. Sabur Khan</h2>
+                    <p>Founder & Chairman, Daffodil Family</p>
+                </div>
+            </div>
+            <!-- Important Links -->
+            <div class="important-links">
+                <h2>Important Links</h2>
+                <ul>
+                    <li><a href="#">Academic Calendar</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Research Opportunities</a></li>
+                    <li><a href="#">Student Portal</a></li>
+                </ul>
+            </div>
+            <h2>Notice Board</h2>
+            <div class="notice">
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">Notice 1</h4>
+                    <p>Notice arrive here.</p>
+                    <hr>
+                    <p class="mb-0">Posted on: January 1, 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container3">
+            <div class="row">
+                <div class="col">
+                    <!-- Social Media Icons -->
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>&copy; 2024 DIU. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS (optional, for certain Bootstrap components that require JavaScript) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+        });
+    </script>
+</body>
+</html>
